@@ -47,11 +47,15 @@ def evaluate_bert_prompt(prompts, continuations, aggregate='max'):
     all_results = []
     for prompt, continuation in tqdm(zip(prompts,continuations)):
         prompt_emb = embedder.encode([prompt])
+        #print("prompt_emb: ", prompt_emb)
         cont_emb = embedder.encode(continuation)
+        #print("cont_emb: ", cont_emb)
         distances = []
-        for cemb in cont_emb[:20]:
+        for cemb in cont_emb:
             distance = scipy.spatial.distance.cdist(prompt_emb[0].reshape(1,-1), cemb.reshape(1,-1), "cosine")[0]
             distances.append(distance)
+        #print("distances: ", distances)
+        #print("len_distances: ", len(distances))
         avg_distance = np.average(distances)    
         all_results.append(avg_distance)
     final_result = np.average(all_results)
