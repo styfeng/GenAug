@@ -188,7 +188,7 @@ MODEL_DIR=$3 #e.g "/data2/vgangal/fanstories/ckpts/1e-6_5epochs.seed42.20pc/chec
 RETURN_SEQUENCES=100 #How many output continuations to return per prompt?
 NUCLEUS_BUDGET=0.9   #Budget for nucleus sampling. The top choices whose mass covers this fraction of the output distribution are the only ones sampled from.
 LENGTH_LIMIT=500     #This is to truncate catastrophically long sequences which are generated. Note that domain finetuning by itself should roughly ensure that typical continuations obey soft length upperbounds
-SEED=42
+SEED=24
 MODEL_TYPE=gpt2
 # Other sizes of the same arch: gpt2-medium, gpt2-large, gpt2-xl. Note however that these are quite big, especially once you want to finetune them before
 # Other arch types: ctrl, openai-gpt, transfo-xl-wt103, xlnet-base-cased etc. Note that this should be consistent with the checkpoint you are supplying under MODEL_FILE

@@ -44,7 +44,7 @@ export NUM_TRAIN_EPOCHS=4
 export PER_GPU_TRAIN_BATCH_SIZE=2
 export GRAD_ACCUMULATION_STEPS=1 #Increase this in case you're getting out of memory errors [This has to be a factor of the batch size, and cannot exceed the batch size itself]
 
-export SEED=42
+export SEED=24
 
 # Setting TOTAL_STEPS (to be given to --save_steps)
 NUMBER_OF_LINES=`wc -l $TRAIN_FILE | cut -f1 -d' '`
