@@ -29,4 +29,4 @@ Note: inquiries should be directed to [*stevenyfeng@gmail.com*](mailto:stevenyfe
 Code for the SMERTI augmentation method can be found in the "GenAug SMERTI-Transformer" folder at [*this repo*](https://github.com/styfeng/SMERTI).
 This is the official repo for "SMERTI for Semantic Text Exchange" presented in [*Keep Calm and Switch On! Preserving Sentiment and Fluency in Semantic Text Exchange*](https://www.aclweb.org/anthology/D19-1272/) published at EMNLP-IJCNLP 2019.
 
-Note: more details and example commands will be added at a later date.
+Note: more details and example commands for all the code will be added at a later date.
