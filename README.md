@@ -1,5 +1,17 @@
 # GenAug: Data Augmentation for Finetuning Text Generators
-Code for GenAug, presented in [*GenAug: Data Augmentation for Finetuning Text Generators*](https://arxiv.org/abs/2010.01794) published at EMNLP 2020 DeeLIO Workshop. Talk can be found [*here*](https://slideslive.com/38939727/genaug-data-augmentation-for-finetuning-text-generators). Slides and other resources can be found [*here*](https://styfeng.github.io/).
+Code for GenAug, presented in [*GenAug: Data Augmentation for Finetuning Text Generators*](https://arxiv.org/abs/2010.01794) published at EMNLP 2020 DeeLIO Workshop. You can cite it as follows:
+```
+@inproceedings{feng-etal-2020-genaug,
+    title = "{G}en{A}ug: Data Augmentation for Finetuning Text Generators",
+    author = "Feng, Steven Y. and Gangal, Varun and Kang, Dongyeop and Mitamura, Teruko and Hovy, Eduard",
+    booktitle = "Proceedings of Deep Learning Inside Out (DeeLIO): The First Workshop on Knowledge Extraction and Integration for Deep Learning Architectures",
+    month = nov, year = "2020", address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.deelio-1.4",
+    doi = "10.18653/v1/2020.deelio-1.4", pages = "29--42",
+}
+```
+Talk can be found [*here*](https://slideslive.com/38939727/genaug-data-augmentation-for-finetuning-text-generators). Slides and other resources can be found [*here*](https://styfeng.github.io/).
 
 Note: inquiries should be directed to [*stevenyfeng@gmail.com*](mailto:stevenyfeng@gmail.com) or by opening an issue here.
 
