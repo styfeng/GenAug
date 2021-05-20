@@ -15,7 +15,7 @@ Talk can be found [*here*](https://slideslive.com/38939727/genaug-data-augmentat
 
 Note: inquiries should be directed to [*stevenyfeng@gmail.com*](mailto:stevenyfeng@gmail.com) or by opening an issue here.
 
-<img src="GenAug_chart.png" alt="drawing" width="300"/>
+<img src="GenAug_chart.png" alt="drawing" width="400"/>
 
 ## Required Resources
 1. Stanford POS Tagger: https://nlp.stanford.edu/software/stanford-postagger-2018-10-16.zip
