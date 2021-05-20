@@ -11,6 +11,12 @@ Code for GenAug, presented in [*GenAug: Data Augmentation for Finetuning Text Ge
     doi = "10.18653/v1/2020.deelio-1.4", pages = "29--42",
 }
 ```
+Authors: <a href="https://scholar.google.ca/citations?hl=en&user=zwiszZIAAAAJ">Steven Y. Feng</a>,
+			  <a href="https://scholar.google.com/citations?user=rWZq2nQAAAAJ&hl=en">Varun Gangal</a>,
+			  <a href="https://scholar.google.com/citations?user=fMKZOjwAAAAJ&hl=en">Dongyeop Kang</a>,
+			  <a href="https://scholar.google.com/citations?user=gjsxBCkAAAAJ&hl=en">Teruko Mitamura</a>,
+			  <a href="https://scholar.google.com/citations?user=PUFxrroAAAAJ&hl=en">Eduard Hovy</a>
+              
 Talk can be found [*here*](https://slideslive.com/38939727/genaug-data-augmentation-for-finetuning-text-generators). Slides and other resources can be found [*here*](https://styfeng.github.io/).
 
 Note: inquiries should be directed to [*stevenyfeng@gmail.com*](mailto:stevenyfeng@gmail.com) or by opening an issue here.
