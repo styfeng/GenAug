@@ -1,5 +1,5 @@
 # GenAug: Data Augmentation for Finetuning Text Generators
-Code for GenAug, presented in [*GenAug: Data Augmentation for Finetuning Text Generators*](https://arxiv.org/abs/2010.01794) published at EMNLP 2020 DeeLIO Workshop. You can cite it as follows:
+Code for GenAug, presented in [*GenAug: Data Augmentation for Finetuning Text Generators*](https://aclanthology.org/2020.deelio-1.4/) published at EMNLP 2020 DeeLIO Workshop. You can cite it as follows:
 ```
 @inproceedings{feng-etal-2020-genaug,
     title = "{G}en{A}ug: Data Augmentation for Finetuning Text Generators",
